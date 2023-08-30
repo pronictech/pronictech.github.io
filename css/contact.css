@@ -1,0 +1,132 @@
+.prj{
+    margin-top: 90px;
+  }
+  
+img{
+  border-radius: 12px;
+  width: 420px;
+  margin-right: 2px;
+}
+
+.team{
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin-top: 10ch;
+  text-decoration-line: none;
+  padding-block: 22px;
+  font-size: 30px;
+}
+.member-team{
+display: block;
+  height: 40pc;
+  background-color: #162033 ;
+}
+
+
+/*gallery*/
+* {box-sizing: border-box;}
+
+.container {
+position: relative;
+width: 150%;
+max-width: 300px;
+display: block;
+}
+#container {
+position: relative;
+width: 50%;
+max-width: 300px;
+display: inline;
+}
+.image {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.overlay {
+position: absolute; 
+bottom: 0; 
+background: rgb(0, 0, 0);
+background: rgba(0, 0, 0, 0.5); /* Black see-through */
+color: #f1f1f1; 
+width: 100%;
+transition: .5s ease;
+opacity:0;
+color: white;
+font-size: 20px;
+padding: 20px;
+text-align: center;
+}
+
+.container:hover .overlay {
+opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+div.gallery {
+border: none;
+}
+
+div.gallery:hover {
+border: none;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.responsive {
+padding: 0 6px;
+float: left;
+width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+.responsive {
+  width: 49.99999%;
+  margin: 6px 0;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.responsive {
+  width: 100%;
+}
+}
+
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+
+#become{
+background-color: #00AEEF;
+border: none;
+border-radius: 2px;
+color: black;
+padding: 12px;
+}
+#become:hover{
+background-color: #094FEF;
+
+}

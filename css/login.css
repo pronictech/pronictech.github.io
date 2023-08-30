@@ -1,0 +1,68 @@
+form{
+  background-color: transparent;
+  max-width: 20pc;
+  border: 2px solid white;
+  margin-top: 3pc;
+  border-radius: 12px;
+  padding-bottom: 50px;
+}
+.lgin{
+  padding-block:4px;
+  margin-top: 5px;
+  background-color: transparent;
+  color: black;
+  font-size: 18px;
+}
+.caption{
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  text-decoration: underline;
+  
+}
+.login{
+  color: blue;
+  float: center;
+  text-decoration-line: underline;
+
+}
+.login:hover{
+  color: white;
+  background-color: transparent;
+}
+.sub{
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding-block:  5px;
+  padding-inline: 12px;
+  margin-top: 12px;
+  color: black;
+  font-weight: bold;
+}
+.sub:hover{
+  background-color: blue;
+}
+::placeholder{
+  float: center;
+  color: red;
+  font-weight: bolder;
+  font-size: 18px;
+  
+  
+}
+.fgpass{
+  float: inline-end;
+  color: white;
+}
+.fgpass:hover{
+  color: blue;
+  text-decoration-line: underline;
+}
+.fgpsswrd{
+  color: white;
+  font-size: 18px;
+}
+.enter{
+  padding-bottom: 20pc;
+}
