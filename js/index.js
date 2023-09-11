@@ -1,5 +1,5 @@
 var typed = new Typed('.aut-wrrt', {
-    strings: ['PROGRAMMERS', 'WEB DEVELOPERS','WEB DESIGNERS','GRAPHICS DESIGNERS','ELECTRONIC DEVELOPERS',],
+    strings: ['WEBSITE DEVELOPERS','WEBSITE DESIGNERS','GRAPHICS DESIGNERS','ELECTRONIC DEVELOPERS',],
     typeSpeed: 50,
     loop: true,
    
@@ -12,4 +12,12 @@ var typed = new Typed('.aut-wrrt', {
     loop: true,
    
   });
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
   
